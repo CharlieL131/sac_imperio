@@ -9,3 +9,16 @@
     height: fit-content;
     padding: 10% 10%;
 }
+.container .contact,
+.container .centerRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.container .contact{
+    max-width: 1140px;
+    gap: 0.5rem;
+}
